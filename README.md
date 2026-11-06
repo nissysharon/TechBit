@@ -50,17 +50,4 @@ python -m pytest -q
 - What happens after five days? The demo cycles through five concepts. Expand the catalog before production.
 - What is the current limitation? No personalization, no persistence, limited topics, server-local date, and no live AI.
 
-## Publish yourself to GitHub
 
-Create an empty repository named `techbit`, then run:
-
-```bash
-git init
-git add .
-git commit -m "Build TechBit V1 daily concept app"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/techbit.git
-git push -u origin main
-```
-
-Do not commit API keys, `.env`, or personal data.
